@@ -2514,5 +2514,26 @@
         "x": 400,
         "y": 60,
         "wires": []
+    },
+    {
+        "id": "bafef97122d8046e",
+        "type": "mqtt in",
+        "z": "804ec40c8f1f56eb",
+        "name": "",
+        "topic": "ble/reports_ESP32_WROOM32",
+        "qos": "0",
+        "datatype": "utf8",
+        "broker": "1612145bd63c7ec7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 360,
+        "wires": [
+            [
+                "7bb18eac65e35530"
+            ]
+        ]
     }
 ]
